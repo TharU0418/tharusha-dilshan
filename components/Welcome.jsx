@@ -59,7 +59,7 @@ function Welcome() {
                 {({ isVisible }) =>
                   <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                     <span className="tagline inline-block font-bold tracking-wide px-2 py-1 bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 text-white border border-white border-opacity-50 text-2xl mb-">WELCOME</span>
-                    <h1 className="text-6xl font-bold leading-tight mb-5 mt-8">{`Hi! I am`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Tharusha Dilshan" ]'><span className="wrap">{text}</span></span></h1>
+                    <h1 className="text-6xl font-bold leading-tight mb-5 mt-8">{'Hi! I am'} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Tharusha Dilshan" ]'><span className="wrap">{text}</span></span></h1>
                     <p className="text-gray-400 text-lg leading-6 mb-8">
                       I am a motivated and talented software engineering undergraduate with a strong
                       passion for technology and a commitment to gaining practical experience in the field.
