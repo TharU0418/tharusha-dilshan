@@ -44,21 +44,21 @@ export const navItems = [
 
 
   export const languges = [
-    {name: 'HTML', img: '/icons/html.svg'},
-    {name: 'CSS', img: '/icons/css.svg'},
-    {name: 'JavaScript', img: '/icons/js.svg'},
-    {name: 'Java', img: '/icons/java.svg'},
-    {name: 'Python', img: '/icons/python.png'},
-    {name: 'React JS', img: '/icons/re.svg'},
-    {name: 'Node', img: '/icons/node.png'},
-    {name: 'Mongo DB', img: '/icons/mongodb.svg'},
-    {name: 'SQL', img: '/icons/mysql.svg'},
-    {name: 'NextJS', img: '/icons/next.svg'},
-    {name: 'TypeScript', img: '/icons/ts.svg'},
-    {name: 'PHP', img: '/icons/php.svg'},
-    {name: 'React Native', img: '/icons/react-native.svg'},
-    {name: 'React Framer', img: '/icons/fm.svg'},
-    {name: 'Tailwind  CSS', img: '/icons/tailwind.png'}
+    {name: 'HTML', img: 'tharu0418.github.io/tharusha-dilshan/icons/html.svg'},
+    {name: 'CSS', img: 'tharu0418.github.io/tharusha-dilshan/icons/css.svg'},
+    {name: 'JavaScript', img: 'tharu0418.github.io/tharusha-dilshan/icons/js.svg'},
+    {name: 'Java', img: 'tharu0418.github.io/tharusha-dilshan/icons/java.svg'},
+    {name: 'Python', img: 'tharu0418.github.io/tharusha-dilshan/icons/python.png'},
+    {name: 'React JS', img: 'tharu0418.github.io/tharusha-dilshan/icons/re.svg'},
+    {name: 'Node', img: 'tharu0418.github.io/tharusha-dilshan/icons/node.png'},
+    {name: 'Mongo DB', img: 'tharu0418.github.io/tharusha-dilshan/icons/mongodb.svg'},
+    {name: 'SQL', img: 'tharu0418.github.io/tharusha-dilshan/icons/mysql.svg'},
+    {name: 'NextJS', img: 'tharu0418.github.io/tharusha-dilshan/icons/next.svg'},
+    {name: 'TypeScript', img: 'tharu0418.github.io/tharusha-dilshan/icons/ts.svg'},
+    {name: 'PHP', img: 'tharu0418.github.io/tharusha-dilshan/icons/php.svg'},
+    {name: 'React Native', img: 'tharu0418.github.io/tharusha-dilshan/icons/react-native.svg'},
+    {name: 'React Framer', img: 'tharu0418.github.io/tharusha-dilshan/icons/fm.svg'},
+    {name: 'Tailwind  CSS', img: 'tharu0418.github.io/tharusha-dilshan/icons/tailwind.png'}
   ]
 
   export const workExperience = [
