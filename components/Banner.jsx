@@ -58,7 +58,7 @@ export const Banner = () => {
                 <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                   <span className="tagline inline-block font-bold tracking-wide px-2 py-1 bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 text-white border border-white border-opacity-50 text-xl mb-4">Welcome to my Portfolio</span>
                   <h1 className="text-5xl font-bold leading-tight mb-5">{`Hi! I'm Judy`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developer", "Web Designer", "UI/UX Designer" ]'><span className="wrap">{text}</span></span></h1>
-                  <p className="text-gray-400 text-lg leading-6 mb-6">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                  <p className="text-gray-400 text-lg leading-6 mb-6">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
                   <button onClick={() => console.log('connect')} className="flex items-center text-white font-bold text-xl mt-12">
                     Let’s Connect
                   </button>
