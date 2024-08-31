@@ -44,21 +44,21 @@ export const navItems = [
 
 
   export const languges = [
-    {name: 'HTML', img: 'tharu0418.github.io/tharusha-dilshan/icons/html.svg'},
-    {name: 'CSS', img: 'tharu0418.github.io/tharusha-dilshan/icons/css.svg'},
-    {name: 'JavaScript', img: 'tharu0418.github.io/tharusha-dilshan/icons/js.svg'},
-    {name: 'Java', img: 'tharu0418.github.io/tharusha-dilshan/icons/java.svg'},
-    {name: 'Python', img: 'tharu0418.github.io/tharusha-dilshan/icons/python.png'},
-    {name: 'React JS', img: 'tharu0418.github.io/tharusha-dilshan/icons/re.svg'},
-    {name: 'Node', img: 'tharu0418.github.io/tharusha-dilshan/icons/node.png'},
-    {name: 'Mongo DB', img: 'tharu0418.github.io/tharusha-dilshan/icons/mongodb.svg'},
-    {name: 'SQL', img: 'tharu0418.github.io/tharusha-dilshan/icons/mysql.svg'},
-    {name: 'NextJS', img: 'tharu0418.github.io/tharusha-dilshan/icons/next.svg'},
-    {name: 'TypeScript', img: 'tharu0418.github.io/tharusha-dilshan/icons/ts.svg'},
-    {name: 'PHP', img: 'tharu0418.github.io/tharusha-dilshan/icons/php.svg'},
-    {name: 'React Native', img: 'tharu0418.github.io/tharusha-dilshan/icons/react-native.svg'},
-    {name: 'React Framer', img: 'tharu0418.github.io/tharusha-dilshan/icons/fm.svg'},
-    {name: 'Tailwind  CSS', img: 'tharu0418.github.io/tharusha-dilshan/icons/tailwind.png'}
+    {name: 'HTML', img: 'https://tharu0418.github.io/tharusha-dilshan/icons/html.svg'},
+    {name: 'CSS', img: 'https://tharu0418.github.io/tharusha-dilshan/icons/css.svg'},
+    {name: 'JavaScript', img: 'https://tharu0418.github.io/tharusha-dilshan/icons/js.svg'},
+    {name: 'Java', img: 'https://tharu0418.github.io/tharusha-dilshan/icons/java.svg'},
+    {name: 'Python', img: 'https://tharu0418.github.io/tharusha-dilshan/icons/python.png'},
+    {name: 'React JS', img: 'https://tharu0418.github.io/tharusha-dilshan/icons/re.svg'},
+    {name: 'Node', img: 'https://tharu0418.github.io/tharusha-dilshan/icons/node.png'},
+    {name: 'Mongo DB', img: 'https://tharu0418.github.io/tharusha-dilshan/icons/mongodb.svg'},
+    {name: 'SQL', img: 'https://tharu0418.github.io/tharusha-dilshan/icons/mysql.svg'},
+    {name: 'NextJS', img: 'https://tharu0418.github.io/tharusha-dilshan/icons/next.svg'},
+    {name: 'TypeScript', img: 'https://tharu0418.github.io/tharusha-dilshan/icons/ts.svg'},
+    {name: 'PHP', img: 'https://tharu0418.github.io/tharusha-dilshan/icons/php.svg'},
+    {name: 'React Native', img: 'https://tharu0418.github.io/tharusha-dilshan/icons/react-native.svg'},
+    {name: 'React Framer', img: 'https://tharu0418.github.io/tharusha-dilshan/icons/fm.svg'},
+    {name: 'Tailwind  CSS', img: 'https://tharu0418.github.io/tharusha-dilshan/icons/tailwind.png'}
   ]
 
   export const workExperience = [
