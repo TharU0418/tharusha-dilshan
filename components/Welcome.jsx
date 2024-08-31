@@ -63,7 +63,7 @@ function Welcome() {
                     <p className="text-gray-400 text-lg leading-6 mb-8">
                       I am a motivated and talented software engineering undergraduate with a strong
                       passion for technology and a commitment to gaining practical experience in the field.
-                      I'm excited to use my skills and motivation to advance the technology industry.
+                      I am excited to use my skills and motivation to advance the technology industry.
                     </p>
                   </div>}
               </TrackVisibility>
