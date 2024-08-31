@@ -203,8 +203,10 @@ const config = {
 
 function addVariablesForColors({ addBase, theme }: any) {
   const colors = theme('colors');
-  const flattenColors = (obj: any, prefix = '') =>
-    Object.keys(obj).reduce((acc, key) => {
+  
+  // Define the type for the accumulator object
+  const flattenColors = (obj: any, prefix = ''): Record<string, string> =>
+    Object.keys(obj).reduce((acc: Record<string, string>, key: string) => {
       const value = obj[key];
       const newKey = prefix ? `${prefix}-${key}` : key;
       if (typeof value === 'string') {
@@ -221,5 +223,6 @@ function addVariablesForColors({ addBase, theme }: any) {
     ':root': allColors,
   });
 }
+
 
 export default config;
