@@ -11,7 +11,6 @@ import Achievement from '@/components/Achievement'
 import Works from '@/components/Works'
 import Contact from '@/components/Contact'
 import Footer from '@/components/Footer'
-import { TracingBeam } from '@/components/ui/tracing-beam'
 
 function page() {
   return (
