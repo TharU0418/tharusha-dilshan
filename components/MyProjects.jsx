@@ -8,6 +8,7 @@ import { useEffect, useState } from 'react';
 import { Meteors } from './ui/Meteors';
 import { motion } from 'framer-motion';
 import { fadeIn, staggerContainer, textVariant } from '@/utils/motion';
+import Image from 'next/image';  // Import the Image component from Next.js
 
 const ProjectDetail = ({ project, onClose }) => {
     const handleContainerClick = (e) => {
@@ -40,7 +41,7 @@ const ProjectDetail = ({ project, onClose }) => {
                                     transform: `translateX(-${5 * index + 2}px)`,
                                 }}
                             >
-                                <img src={icon} alt='icons' className='p-2' />
+                                <Image src={icon} alt='icons' className='p-2' width={32} height={32} />
                             </div>
                         ))}
                     </div>
@@ -136,12 +137,14 @@ const MyProjects = () => {
                                                 className='relative w-full h-full overflow-hidden lg:rounded-3xl'
                                                 style={{ backgroundColor: '#13162D' }}
                                             >
-                                                <img src='./images/bg.png' alt='background' />
+                                                <Image src='/images/bg.png' alt='background' width={3840} height={2160} />
                                             </div>
-                                            <img
+                                            <Image
                                                 src={item.img}
                                                 alt='cover'
                                                 className='z-10 absolute bottom-10'
+                                                width={500}
+                                                height={500}
                                             />
                                         </div>
                                         <h1 className='font-bold lg:text-2xl md:text-xl text-base line-clamp-1'>
@@ -161,7 +164,7 @@ const MyProjects = () => {
                                                         className="border border-white/[.2] rounded-full bg-black lg:w-10 lg:h-10 w-8 h-8 flex justify-center items-center"
                                                         style={{ transform: `translateX(-${5 * index + 2}px)` }}
                                                     >
-                                                        <img src={icon} alt='icons' className='p-2' />
+                                                        <Image src={icon} alt='icons' className='p-2' width={32} height={32} />
                                                     </div>
                                                 ))}
                                             </div>
